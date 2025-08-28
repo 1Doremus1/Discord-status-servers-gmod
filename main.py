@@ -45,7 +45,7 @@ def create_embed(data):
     embed.set_thumbnail(url="")
     embed.add_field(name=f"🌍  `Карта` {data['map']}\u200B", value="", inline=False)
     embed.add_field(name=f"👥  `Игроки` {data['players']}\u200B", value="", inline=False)
-    embed.add_field(name=f"🚀  `Прямое подключение`\u200B", value="**steam://connect/46.174.53.166:27015**", inline=False)
+    embed.add_field(name=f"🚀  `Прямое подключение`\u200B", value="**steam://connect/IP**", inline=False)
     embed.add_field(name=f"\u200B", value="━━━━━━━━━━━━━━━━━━━━━━━━")
     embed.set_image(url="")
     embed.set_footer(text="Информация обновляеться каждые 5 минут.")
